@@ -15,6 +15,7 @@
 		D987FBA91FBE7B0200DE7BBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D987FBA81FBE7B0200DE7BBB /* main.m */; };
 		D987FBB31FBE7B0300DE7BBB /* iOSImageChoiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D987FBB21FBE7B0300DE7BBB /* iOSImageChoiceTests.m */; };
 		D987FBBE1FBE7B0300DE7BBB /* iOSImageChoiceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D987FBBD1FBE7B0300DE7BBB /* iOSImageChoiceUITests.m */; };
+		D987FBCD1FBE7B2200DE7BBB /* GD_ImageChoice.m in Sources */ = {isa = PBXBuildFile; fileRef = D987FBCB1FBE7B2200DE7BBB /* GD_ImageChoice.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D987FBB91FBE7B0300DE7BBB /* iOSImageChoiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSImageChoiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D987FBBD1FBE7B0300DE7BBB /* iOSImageChoiceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSImageChoiceUITests.m; sourceTree = "<group>"; };
 		D987FBBF1FBE7B0300DE7BBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D987FBCB1FBE7B2200DE7BBB /* GD_ImageChoice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GD_ImageChoice.m; sourceTree = "<group>"; };
+		D987FBCC1FBE7B2200DE7BBB /* GD_ImageChoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GD_ImageChoice.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		D987FB981FBE7B0200DE7BBB /* iOSImageChoice */ = {
 			isa = PBXGroup;
 			children = (
+				D987FBCC1FBE7B2200DE7BBB /* GD_ImageChoice.h */,
+				D987FBCB1FBE7B2200DE7BBB /* GD_ImageChoice.m */,
 				D987FB991FBE7B0200DE7BBB /* AppDelegate.h */,
 				D987FB9A1FBE7B0200DE7BBB /* AppDelegate.m */,
 				D987FB9C1FBE7B0200DE7BBB /* ViewController.h */,
@@ -268,6 +273,7 @@
 				D987FB9E1FBE7B0200DE7BBB /* ViewController.m in Sources */,
 				D987FBA91FBE7B0200DE7BBB /* main.m in Sources */,
 				D987FB9B1FBE7B0200DE7BBB /* AppDelegate.m in Sources */,
+				D987FBCD1FBE7B2200DE7BBB /* GD_ImageChoice.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,7 +437,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FS69S45C22;
 				INFOPLIST_FILE = iOSImageChoice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = anchen.iOSImageChoice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,7 +452,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FS69S45C22;
 				INFOPLIST_FILE = iOSImageChoice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = anchen.iOSImageChoice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
